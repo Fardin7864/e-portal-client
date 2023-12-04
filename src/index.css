@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ul li a{
+    /* background: transparent !important; */
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-weight: 600;
+}
+
+ul li a:focus{
+    background: transparent !important;
+    color: #FA4226 !important;
+    text-decoration: underline !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+ul li a:hover{
+    color: #FA4226 !important;
+}
+
+ul li a:active{
+    background: transparent !important;
+    color: #FA4226 !important;
+    text-decoration: underline !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+.active{
+    background: none !important;
+    color: #FA4226 !important;
+    text-decoration: underline;
+}
+
+.c-main{
+    background-color: #fb3158;
+    color: white;
+}
+.c-primary{
+    color: #fb3158;
+}
+
+.element {
+    /* You can set --grad-opacity and --grad-color here or in the element's style */
+    --grad-opacity: 0.85;
+    --grad-color: rgba(0, 0, 0, var(--grad-opacity));
+    background-color: var(--grad-opacity) var(--grad-color);
+  
+    /* Apply the gradient overlay to the element's background */
+    /* background: linear-gradient(var(--grad-color), var(--grad-color));
+    background-blend-mode: overlay; */
+  }
